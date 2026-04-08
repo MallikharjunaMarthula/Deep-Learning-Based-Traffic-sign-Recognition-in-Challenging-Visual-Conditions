@@ -1,0 +1,53 @@
+# data.yaml
+path: dataset
+
+train: images/train
+val: images/val
+
+# approximate number of classes in this dataset
+nc: 43
+
+names:
+  0: Speed_Limit_20
+  1: Speed_Limit_30
+  2: Speed_Limit_50
+  3: Speed_Limit_60
+  4: Speed_Limit_70
+  5: Speed_Limit_80
+  6: End_of_speed_limit_80
+  7: Speed_Limit_100
+  8: Speed_Limit_120
+  9: No_passing
+  10: No_passing_for_trucks
+  11: Yield
+  12: Stop
+  13: No_vehicles
+  14: Trucks_prohibited
+  15: No_entry
+  16: Traffic_signals
+  17: Pedestrians
+  18: Children_crossing
+  19: Bicycles_crossing
+  20: Slippery_road
+  21: Road_narrows
+  22: Road_work
+  23: Roundabout
+  24: Keep_right
+  25: Keep_left
+  26: Go_straight
+  27: Turn_right
+  28: Turn_left
+  29: Slower_traffic_keep_right
+  30: End_no_passing
+  31: End_no_passing_trucks
+  32: Priority_road
+  33: No_overtaking
+  34: Dangerous_curve_left
+  35: Dangerous_curve_right
+  36: Double_curve
+  37: Bumpy_road
+  38: Snow
+  39: Animals
+  40: Pedestrian
+  41: School
+  42: Give_way
